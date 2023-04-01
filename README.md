@@ -15,12 +15,22 @@ Um Robô Automático Aplicado Em Plantações e Hortas
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
+- [x] Fazer Protótipo Inicial do Robô
 - [ ] Controlar Robô Remotamente
 - [ ] Design e Criação da Estrutura do Robô em 3d
 - [ ] Impressão em Impressora 3d
 - [ ] Sistema de Regador
 - [ ] Extras...
 - [ ] Teste de Campo
+
+### Diário de Bordo
+- 31/03/2023 -> O PROTÓTIPO FOI MONTADO E OS MOTORES FUNCIONARAM AO SEREM CONTROLADOS PELA WEMOS
+
+### Estrutura
+- WeMos(Esp8266) -> Barato, Potente e com WIFI Integrado; Controla o Circuito do Robô
+- Ponte H -> Para Controlar a Alimentação dos Motores
+- 4 Motores 5v
+- Bateria 9v -> Alimentação da Ponte H | Arduino
 
 ## 🤝 Colaboradores
 
