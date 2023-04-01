@@ -36,9 +36,16 @@ Conheça a Equipe que Desenvolve o Projeto:
         </sub>
       </a>
     </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/22924376?v=4" width="100px;" alt="Foto do Guilherme Daniel no GitHub"/><br>
+        <sub>
+          <b>Guilherme Daniel</b>
+        </sub>
+      </a>
+    </td>
   </tr>
 </table>
-
 
 ## 📝 Licença
 
