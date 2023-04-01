@@ -7,7 +7,7 @@ Um Robô Automático Aplicado Em Plantações e Hortas
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-<img src="project-image.png" alt="exemplo imagem">
+<img src="project-image.jpg" alt="exemplo imagem">
 
 > Um Robô Automático Aplicado Em Plantações e Hortas. Essa é uma solução barata e simples, não só para usar em hortas e jardins da população geral, como em pequenos sistemas agricolas.
 
