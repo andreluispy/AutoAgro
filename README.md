@@ -54,11 +54,35 @@ Conheça a Equipe que Desenvolve o Projeto:
         </sub>
       </a>
     </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/96800134?v=4" width="100px;" alt="Foto do Davyd Lucas no GitHub"/><br>
+        <sub>
+          <b>Davyd Lucas</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/129461553?v=4" width="100px;" alt="Foto do Diego no GitHub"/><br>
+        <sub>
+          <b>Diego</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/101540115?v=4" width="100px;" alt="Foto do Arthur P. Barradas no GitHub"/><br>
+        <sub>
+          <b>Arthur P. Barradas</b>
+        </sub>
+      </a>
+    </td>
   </tr>
 </table>
 
 ## 📝 Licença
 
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE) para mais detalhes.
 
 [⬆ Voltar ao topo](#nome-do-projeto)<br>
