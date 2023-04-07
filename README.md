@@ -15,22 +15,35 @@ Um Robô Automático Aplicado Em Plantações e Hortas
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [x] Fazer Protótipo Inicial do Robô
+- [x] Fazer Motores Funcionarem
 - [ ] Controlar Robô Remotamente
-- [ ] Design e Criação da Estrutura do Robô em 3d
+- [ ] Design de Estrutura Nova em 3d
 - [ ] Impressão em Impressora 3d
 - [ ] Sistema de Regador
 - [ ] Extras...
 - [ ] Teste de Campo
 
 ### Diário de Bordo
-- 31/03/2023 -> O PROTÓTIPO FOI MONTADO E OS MOTORES FUNCIONARAM AO SEREM CONTROLADOS PELA WEMOS
+- 31/03/2023 -> O PROTÓTIPO FOI MONTADO E OS MOTORES FUNCIONARAM AO SEREM CONTROLADOS PELA WEMOS, USANDO UMA PONTE-H L298N 
+  - **OBS:** A PONTE SÓ SUPORTA DOIS MOTORES, ENTÃO JUNTAMOS OS FIOS DE 2 MOTORES, EM 1 UNICO FIO, GERANDO MENOS DESEMPENHO 
+    - BUSCAR PONTE H NOVA
+  - **OBS:** FOI USADO UMA BATERIA 9V PARA ALIMENTAR A PONTE H E O ARDUINO, PODENDO DANIFICAR A PLACA 
+    - BUSCAR FONTE 5V EXCLUSIVA PARA O ARDUINO
+- 04/04/2023 -> CONTROLE REMOTO DE MOTORES USANDO UDP(HTTP)
+  - **OBS:** UDP PRODUZ GRANDE PERDA DE INFORMAÇÃO NA HORA DA COMUNICAÇÃO, MAS OBTEM MELHOR VELOCIDADE
+  - **OBS:** EM TESTES O USO DE TCP, EVITA PERDA DE INFORMAÇÃO, MAS É MUITO LENTA
+  - **OBS**: BUSCAR APLICAR MQTT, PARA EVITAR PERDA DE PACOTES E OBTER MELHOR VELOCIDADE
 
 ### Estrutura
-- WeMos(Esp8266) -> Barato, Potente e com WIFI Integrado; Controla o Circuito do Robô
-- Ponte H -> Para Controlar a Alimentação dos Motores
+- WeMos D1 R2(BASEADA EM Esp8266)
+  - Controla o Circuito do Robô
+  - Placa Mais Barata, Mais Potente e com WIFI Integrado
+- Ponte H 
+  - Para Controlar a Alimentação dos Motores
 - 4 Motores 5v
-- Bateria 9v -> Alimentação da Ponte H | Arduino
+  - PARA TRANSFORMAR ENERGIA ELETRICA EM CINETICA, OU SEJA, MOVER AS RODAS
+- Bateria 9v
+  - Alimentação da Ponte H e Arduino
 
 ## 🤝 Colaboradores
 
