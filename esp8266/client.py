@@ -6,21 +6,21 @@ import ssl
 import tkinter as tk
 
 ssl_context = ssl.SSLContext()
-broker = 'c22669d8fc044b09a5439b33a1ec4d86.s2.eu.hivemq.cloud'
+broker = 'ea19786227fb48539c94010249c4ecfb.s2.eu.hivemq.cloud'
 port = 8883
-topic = "topic"
+topic = "autoagro/car"
 # generate client ID with pub prefix randomly
 client_id = f'python-mqtt-{random.randint(0, 1000)}'
 # username = 'emqx'
 # password = 'public'
-def on_connect(client, userdata, flags, rc):
+def on_connect(client, userdata, flags, rc, properties=None):
     if rc == 0:
         print("Connected to MQTT Broker!")
     else:
         print("Failed to connect, return code %d\n", rc)
 
 client = mqtt.Client(client_id)
-client.username_pw_set("DiegoBr", "Meutaker480")
+client.username_pw_set("guidanidias", "V3cM@g5T2RwWNxw")
 client.on_connect = on_connect
 client.connect(broker, port)
 client.tls_set_context(ssl_context)
@@ -31,8 +31,8 @@ client.loop_start()
 janela = tk.Tk()
 janela.geometry("300x300") # define o tamanho da janela
 def publish(client, message):
+    print(f"Mensagem publicada {message}")
     result = client.publish(topic, message)
-    # result: [0, 1]
     status = result[0]
     if status == 0:
         print(f"Send `{message}` to topic `{topic}`")
