@@ -47,7 +47,7 @@ void setup() {
 
 void loop() {
 
-  if(Firebase.getString(ledData, "/led/val")){
+  if(Firebase.getString(ledData, "/dir")){
     Serial.println(ledData.stringData());
     if(ledData.stringData() == "1"){
       digitalWrite(LED_BUILTIN, HIGH);
